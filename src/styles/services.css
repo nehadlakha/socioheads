@@ -1,0 +1,90 @@
+.ser1 {
+    position: fixed;
+    z-index: -5;
+    background-color: rgb(146, 55, 231);
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.ser1 h1 {
+    font-weight: 700;
+    font-size: 3.5vw;
+}
+
+.ser1 p {
+    font-family: 'Kalam', cursive;
+    font-size: 1.3rem;
+}
+
+.ser2 {
+    display: grid;
+    grid-template-columns: 30vw 70vw;
+    margin-bottom: 8%;
+}
+
+.ser2-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 4%;
+    column-gap: 3%;
+    row-gap: 3%;
+    /* height: 100%; */
+    /* grid-template-rows: 40vh 40vh 40vh 40vh; */
+    /* background-color: rgb(219, 219, 219); */
+}
+
+.service1 h3>svg,
+.service2 h3>svg,
+.service3 h3>svg,
+.service4 h3>svg,
+.service5 h3>svg,
+.service6 h3>svg,
+.service7 h3>svg,
+.service8 h3>svg {
+    font-size: 3.5vw;
+    margin-bottom: -2%;
+    /* color: blue; */
+}
+
+.service1 h3,
+.service2 h3,
+.service3 h3,
+.service4 h3,
+.service5 h3,
+.service6 h3,
+.service7 h3,
+.service8 h3 {
+    /* padding: 2%; */
+    font-weight: 700;
+    margin-bottom: 5%;
+    /* color: red; */
+}
+
+.service1,
+.service3,
+.service5,
+.service7 {
+    border-right: 2px solid black;
+    padding: 2% 5%;
+}
+
+.service2,
+.service4,
+.service6,
+.service8 {
+    padding: 0 5%;
+}
+
+.service1,
+.service2,
+.service3,
+.service4,
+.service5,
+.service6 {
+    border-bottom: 2px solid black;
+}

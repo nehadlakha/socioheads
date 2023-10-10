@@ -1,0 +1,106 @@
+.footer {
+    background-color: rgb(114, 114, 114);
+    /* color: white */
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    padding: 5%;
+    column-gap: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer1 {
+    width: 50%;
+}
+
+.footer1 img {
+    width: 60%;
+}
+
+.footer1 p {
+    font-weight: 500;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    /* width: 50%; */
+}
+
+.connect,
+.touch,
+.write {
+    margin-bottom: 3%;
+}
+
+.connect h2,
+.touch h2,
+.write h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.sm-footer {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.sm-footer svg {
+    font-size: x-large;
+    transition: font-size 0.5s ease-out;
+}
+
+.sm-footer svg:hover {
+    cursor: pointer;
+    font-size: 120%;
+}
+
+.touch div {
+    display: flex;
+    column-gap: 4%;
+}
+
+.touch div>svg {
+    font-size: x-large;
+}
+
+.touch div>h5:last-of-type {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer3 h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.footer3 h5 {
+    font-size: 1rem;
+    margin-bottom: 5%;
+}
+
+::placeholder {
+    color: black;
+}
+
+.mail input {
+    background-color: rgb(207, 199, 247);
+    border: none;
+    color: black;
+    padding: 2%;
+    height: 2.4rem;
+    border-radius: 3%;
+}
+
+.mail button {
+    background-color: rgb(174, 158, 246);
+    /* border-color: rgb(76, 19, 130); */
+    /* border: 3px solid rgb(84, 23, 140); */
+    border: none;
+    height: 2.5rem;
+    font-weight: 500;
+    border-radius: 7%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
