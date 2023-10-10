@@ -15,33 +15,6 @@ import Footer from "./Footer";
 
 const Home = () => {
 
-    // const history = useHistory();
-
-    // const routeChangeAbout = () => {
-    //     let path = `/about`;
-    //     history.push(path);
-    // }
-
-    // const routeChangeContact = () => {
-    //     let path = `/contact`;
-    //     history.push(path);
-    // }
-
-    // const routeChangeNews1 = () => {
-    //     let path = `/news1`;
-    //     history.push(path);
-    // }
-
-    // const routeChangeNews2 = () => {
-    //     let path = `/news2`;
-    //     history.push(path);
-    // }
-
-    // const routeChangeNews3 = () => {
-    //     let path = `/news3`;
-    //     history.push(path);
-    // }
-
     const [model, setModel] = useState(false);
     const [tempimgSrc, setTempImgSrc] = useState('');
 

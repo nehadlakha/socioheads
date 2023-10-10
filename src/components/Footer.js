@@ -28,7 +28,7 @@ const Footer = () => {
                         <div>
                             <FaMailBulk />
                             <h5>Contact us</h5>
-                            <Link to="/contact"><h5>here</h5></Link>
+                            <Link to="/contact"><h5 className="here">here</h5></Link>
                         </div>
                     </div>
                     <div className="write">

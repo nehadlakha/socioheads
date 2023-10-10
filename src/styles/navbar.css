@@ -1,44 +1,33 @@
-.navbar {
-    background: transparent;
-    background-color: transparent;
-    position: sticky;
-    top: 0;
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* column-gap: 1%; */
+    column-gap: 20%;
     height: 12vh;
     padding: 0 2rem;
-    /* background-color: var(--mainColor); */
+    background-color: rgba(177, 177, 180);
     color: black;
+    position: relative;
     z-index: 1000;
     width: 100vw;
-    background-color: rgba(177, 177, 180, 0.518);
-}
-
-.navbar.fixed {
-    background-color: rgba(177, 177, 180);
-    transition: .1s ease-in-out;
-    /* color: white; */
 }
 
 .logo {
-    width: 12%;
-    /* background-color: white; */
+    height: 8vw;
 }
 
 nav a {
     margin: 0 1rem;
-    font-weight: 700;
     color: unset;
     text-transform: capitalize;
     transition: 0.5s;
+    font-weight: 700;
 }
 
 nav a:hover {
-    color: rgb(9, 59, 222);
+    transform-origin: left;
+    color: blueviolet;
     transition: 0.5s;
-    text-decoration: none;
 }
 
 header .nav-btn {
@@ -47,6 +36,7 @@ header .nav-btn {
     background: transparent;
     border: none;
     outline: none;
+    color: var(--textColor);
     visibility: hidden;
     opacity: 0;
     font-size: 1.8rem;
@@ -56,18 +46,16 @@ header div,
 nav {
     display: flex;
     align-items: center;
-    column-gap: 13%;
-}
-
-@media screen and (max-width:743px) {
-    .logo {
-        width: 40% !important;
-    }
+    column-gap: 15%;
 }
 
 @media only screen and (max-width: 1024px) {
     .logo {
-        width: 30%;
+        height: 15vw;
+    }
+
+    header {
+        color: white;
     }
 
     header .nav-btn {
