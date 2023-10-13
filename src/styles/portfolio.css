@@ -19,12 +19,13 @@
     width: 100vw;
     /* margin-bottom: 12%; */
     background-color: #00000028;
-    height: 280vh;
+    height: 100%;
+    padding-bottom: 60%;
 }
 
 .work2gallery {
     display: grid;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
     grid-template-columns: 25vw 25vw 25vw;
     padding: 5% 8%;
     /* align-content: center; */
@@ -34,9 +35,9 @@
 
 .workmodel {
     width: 100%;
-    height: 88vh;
+    height: 100vh;
     position: fixed;
-    top: 12vh;
+    top: 0;
     left: 0;
     display: flex;
     justify-content: center;
@@ -47,7 +48,7 @@
     opacity: 0;
     transform: scale(0);
     overflow: hidden;
-    z-index: 999;
+    z-index: 10001;
 }
 
 .workmodel.open {
@@ -100,19 +101,105 @@
 .chaiPoint2P img,
 .shoesP img,
 .spiderP img,
-.chaipoint3P img {
+.chaipoint3P img,
+.laptop img,
+.saturday img,
+.floral img,
+.grid img,
+.snapinsta1 img,
+.snapinsta2 img,
+.snapinsta3 img,
+.snapinsta4 img,
+.wedding img {
     /* width: 70%; */
-    height: 95%;
+    height: 95% !important;
 }
 
-/* .vehiclesP img {
-    width: 60%;
-} */
-
-.smm {
+.laptop {
     grid-row: 4/5;
     grid-column: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.saturday {
+    grid-row: 4/5;
+    grid-column: 3/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.floral {
+    grid-row: 5/6;
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.grid {
+    grid-row: 5/6;
+    grid-column: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.snapinsta2 {
+    grid-row: 5/6;
+    grid-column: 3/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.snapinsta3 {
+    grid-row: 6/7;
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.snapinsta4 {
+    grid-row: 6/7;
+    grid-column: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.wedding {
+    grid-row: 6/7;
+    grid-column: 3/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.snapinsta1 {
+    grid-row: 7/8;
+    grid-column: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.smm {
     /* width: 30%; */
+    grid-row: 7/8;
+    grid-column: 1/2;
     height: 70vh;
     display: flex;
     align-items: center;
@@ -230,7 +317,16 @@
 .smm:hover,
 .spiderP:hover,
 .thug-lifeP:hover,
-.valentineP:hover {
+.valentineP:hover,
+.laptop:hover,
+.saturday:hover,
+.floral:hover,
+.grid:hover,
+.snapinsta1:hover,
+.snapinsta2:hover,
+.snapinsta3:hover,
+.snapinsta4:hover,
+.wedding:hover {
     cursor: pointer;
     filter: brightness(0.5);
     transition: filter 0.6s ease-in-out;
@@ -263,7 +359,7 @@
 }
 
 .work3 img {
-    width: 55%;
+    width: 38%;
 }
 
 .work3 h2 {
@@ -276,4 +372,300 @@
 .work3 h2>span {
     color: red;
     font-size: xxx-large;
+}
+
+.work4 {
+    background-color: #000;
+    display: flex;
+    /* flex-direction: column; */
+    column-gap: 2%;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.vid1 {
+    width: 30rem;
+}
+
+.vid2 {
+    height: 30rem;
+}
+
+@media screen and (max-width:1024px) {
+    .vid1 {
+        height: 40vh;
+    }
+
+    .vid2 {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width:730px) {
+    .work1 h1 {
+        font-size: 7vw;
+        width: 40%;
+    }
+
+    .work2 {
+        height: 100%;
+        padding-bottom: 100%;
+    }
+
+    .work2gallery {
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+        grid-template-columns: 40vw 40vw;
+    }
+
+    .smm {
+        grid-row: 10/11;
+        grid-column: 1/2;
+        height: 60vh;
+    }
+
+    .laptop {
+        grid-row: 6/7;
+        grid-column: 1/2;
+    }
+
+    .saturday {
+        grid-row: 6/7;
+        grid-column: 2/3;
+    }
+
+    .floral {
+        grid-row: 7/8;
+        grid-column: 1/2;
+    }
+
+    .grid {
+        grid-row: 7/8;
+        grid-column: 2/3;
+    }
+
+    .snapinsta1 {
+        grid-row: 10/11;
+        grid-column: 2/3;
+
+    }
+
+    .snapinsta2 {
+        grid-row: 8/9;
+        grid-column: 1/2;
+    }
+
+    .snapinsta3 {
+        grid-row: 8/9;
+        grid-column: 2/3;
+    }
+
+    .snapinsta4 {
+        grid-row: 9/10;
+        grid-column: 1/2;
+    }
+
+    .wedding {
+        grid-row: 9/10;
+        grid-column: 2/3;
+    }
+
+    .valentineP {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .thug-lifeP {
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+
+    .partyP {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    .fitnessP {
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+
+    .chaiPoint1P {
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+
+    .chaiPoint2P {
+        grid-row: 4/5;
+        grid-column: 2/3;
+    }
+
+    .shoesP {
+        grid-row: 5/6;
+        grid-column: 1/2;
+    }
+
+    .spiderP {
+        grid-row: 5/6;
+        grid-column: 2/3;
+    }
+
+    .work3 {
+        height: 100vh;
+        padding: 16% 7%;
+        margin-bottom: 4%;
+    }
+
+    .work3 img {
+        width: 60%;
+    }
+
+    .vid1 {
+        height: unset;
+        width: 80vw;
+    }
+
+    .vid2 {
+        height: unset;
+        width: 80vw;
+    }
+
+    .work4 {
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px !important;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        padding: 5% 0;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .work2 {
+        height: 100%;
+        padding-bottom: 230vh;
+    }
+
+    .work2gallery {
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
+        grid-template-columns: 85vw;
+        row-gap: 1%;
+    }
+
+    .chaipoint3P {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .smm {
+        grid-row: 19/20;
+        grid-column: 1/2;
+        height: 70vh !important;
+    }
+
+    .laptop {
+        grid-row: 11/12;
+        grid-column: 1/2;
+    }
+
+    .saturday {
+        grid-row: 12/13;
+        grid-column: 1/2;
+    }
+
+    .floral {
+        grid-row: 13/14;
+        grid-column: 1/2;
+    }
+
+    .grid {
+        grid-row: 14/15;
+        grid-column: 1/2;
+    }
+
+    .snapinsta1 {
+        grid-row: 20/21;
+        grid-column: 1/2;
+
+    }
+
+    .snapinsta2 {
+        grid-row: 15/16;
+        grid-column: 1/2;
+    }
+
+    .snapinsta3 {
+        grid-row: 16/17;
+        grid-column: 1/2;
+    }
+
+    .snapinsta4 {
+        grid-row: 17/18;
+        grid-column: 1/2;
+    }
+
+    .wedding {
+        grid-row: 18/19;
+        grid-column: 2/3;
+    }
+
+    .valentineP {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    .thug-lifeP {
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+
+    .partyP {
+        grid-row: 5/6;
+        grid-column: 1/2;
+    }
+
+    .fitnessP {
+        grid-row: 6/7;
+        grid-column: 1/2;
+    }
+
+    .chaiPoint1P {
+        grid-row: 7/8;
+        grid-column: 1/2;
+    }
+
+    .chaiPoint2P {
+        grid-row: 8/9;
+        grid-column: 1/2;
+    }
+
+    .shoesP {
+        grid-row: 9/10;
+        grid-column: 1/2;
+    }
+
+    .spiderP {
+        grid-row: 10/11;
+        grid-column: 1/2;
+    }
+
+    .work3 {
+        padding-top: 10%;
+        padding-bottom: 30%;
+        padding: unset 7%;
+    }
+
+    .work3 img {
+        width: 90%;
+    }
+
+    .work3 h2 {
+        font-weight: 700;
+        font-size: x-large;
+        /* margin-bottom: 2%; */
+    }
 }

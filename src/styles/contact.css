@@ -81,18 +81,6 @@
     background-color: transparent;
 }
 
-.send-msg-btn {
-    /* width: 30%;
-    margin-top: 4%;
-    height: 50px;
-    border-radius: 10%;
-    background-color: blueviolet;
-    border-color: transparent;
-    font-weight: 600;
-    font-size: 1.4vw; */
-
-}
-
 .button-30 {
     align-items: center;
     appearance: none;
@@ -197,7 +185,7 @@
 
 @media screen and (max-width: 1100px) {
 
-    .section2-contact {
+    .contact2 {
         display: grid !important;
         grid-template-columns: auto;
         grid-template-rows: auto auto;
@@ -205,44 +193,18 @@
         justify-content: center;
         /* margin-bottom: -10%; */
     }
-
-    .send-message h1 {
-        width: 70vw;
-    }
-
-    .get-in-touch {
-        width: 50vw;
-        margin: unset;
-        display: flex;
-        flex-direction: column;
-    }
-
-
-    .visit-us,
-    .mail-us,
-    .phone-us {
-        grid-template-columns: 25% 60%;
-
-    }
-}
-
-@media screen and (max-width:970px) {
-    .section1-contact {
-        height: 50vh;
-        margin-top: -15%;
-    }
-
-    .contact-black:before {
-        height: 50vh !important;
-    }
-
-    .contact-black h1 {
-        margin-top: 20% !important;
-    }
-
 }
 
 @media screen and (max-width:733px) {
+
+    .contact1 h1 {
+        font-size: 6vw;
+        width: 40%;
+    }
+
+    .contact1 h4 {
+        font-size: larger;
+    }
 
     .section2-contact {
         margin-bottom: -30%;
@@ -252,9 +214,56 @@
         width: 80vw;
     }
 
+    .send-message h1 {
+        font-size: 1.1rem;
+        margin-bottom: 7%;
+        width: 45vw;
+        font-weight: 700;
+    }
+
+    .get-in-touch h1 {
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .line {
+        margin: 3% 0;
+    }
+
+    .visit-us,
+    .mail-us,
+    .phone-us {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: auto auto;
+        column-gap: 0;
+        margin-top: 10%;
+        align-items: center;
+        margin-left: 10%;
+
+    }
+
     .icon-bg {
+        grid-row: 1/3;
+        background-color: rgb(156, 70, 237);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
         padding: 20%;
         width: 70%;
+    }
+
+    .visit-us h3,
+    .mail-us h3,
+    .phone-us h3 {
+        font-size: 1.3rem !important;
+    }
+
+    .visit-us p,
+    .mail-us p,
+    .phone-us p {
+        font-size: 0.9rem;
     }
 }
 
@@ -263,4 +272,5 @@
         margin-top: 22% !important;
         font-size: 40px;
     }
+
 }

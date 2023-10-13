@@ -3,7 +3,8 @@
     z-index: -5;
     background-color: rgb(146, 55, 231);
     width: 30vw;
-    height: 100vh !important;
+    top: -12vh;
+    height: 150vh !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,4 +88,88 @@
 .service5,
 .service6 {
     border-bottom: 2px solid black;
+}
+
+@media screen and (max-width:730px) {
+    .ser2 {
+        height: 100% !important;
+    }
+
+    .ser2-2 {
+        row-gap: 1%;
+    }
+
+
+    .service1 h3,
+    .service2 h3,
+    .service3 h3,
+    .service4 h3,
+    .service5 h3,
+    .service6 h3,
+    .service7 h3,
+    .service8 h3 {
+        font-size: 1.3rem;
+    }
+
+    .service1 p,
+    .service2 p,
+    .service3 p,
+    .service4 p,
+    .service5 p,
+    .service6 p,
+    .service7 p,
+    .service8 p {
+        font-size: 0.8rem !important;
+    }
+
+}
+
+@media screen and (max-width:556px) {
+    .ser1 {
+        width: 40vw;
+    }
+
+    .ser1 h1 {
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .ser1 p {
+        font-size: 1.1rem;
+    }
+
+    .ser2 {
+        grid-template-columns: 40vw 60vw;
+        margin-bottom: 15%;
+    }
+
+    .ser2-2 {
+        grid-template-columns: auto;
+        row-gap: 0.5%;
+    }
+
+    .service1,
+    .service3,
+    .service5,
+    .service7 {
+        border-right: unset;
+        padding: 1% 5%;
+    }
+
+    .service2,
+    .service4,
+    .service6,
+    .service8 {
+        padding: 1% 5%;
+    }
+
+    .service1,
+    .service2,
+    .service3,
+    .service4,
+    .service5,
+    .service6,
+    .service7 {
+        border-bottom: 2px solid black;
+    }
 }

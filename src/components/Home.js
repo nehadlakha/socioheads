@@ -31,15 +31,15 @@ const Home = () => {
                     keyboard={{
                         enabled: true,
                     }}
-                    // autoplay={{
-                    //     delay: 3500,
-                    //     disableOnInteraction: false,
-                    // }}
+                    autoplay={{
+                        delay: 3500,
+                        disableOnInteraction: false,
+                    }}
                     pagination={{
                         clickable: true,
                     }}
-                    navigation={true}
-                    modules={[Autoplay, Pagination, Navigation]}
+                    // navigation={true}
+                    modules={[Autoplay, Pagination]}
                     className="mySwiper"
                 >
                     <SwiperSlide>
@@ -96,7 +96,7 @@ const Home = () => {
                         <h3>Digital.</h3>
                         <div className="green-line"></div>
                         <h5>We create super-rich experiences online!</h5>
-                        <p>WeBeeSocial is a full-scale Digital Marketing Agency based out of New Delhi, India. We mix our years of experience and knowledge to create solutions for our clients which are not only performance driven, but also creative.  We are running kick-ass digital campaigns for our clients, even as you read this!</p>
+                        <p>Socioheads is a full-scale Digital Marketing Agency based out of New Delhi, India. We mix our years of experience and knowledge to create solutions for our clients which are not only performance driven, but also creative.  We are running kick-ass digital campaigns for our clients, even as you read this!</p>
                         <Link to="/about"><h4>ABOUT US <FaArrowRight color={"blue"} fontSize={"1.1rem"} /></h4></Link>
                     </div>
                     <div className="home2-13">
@@ -118,18 +118,18 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="performance-mkt">
-                        <img src={require("../images/performance-mkt.jpg")} />
+                        <img src={require("../images/graphic-design.jpg")} />
                         <div className="overlay">
                             <div className="content">
-                                <h3>Performance Marketing</h3>
+                                <h3>Graphic Design</h3>
                             </div>
                         </div>
                     </div>
                     <div className="web-analytics">
-                        <img src={require("../images/web-analytics.jpg")} />
+                        <img src={require("../images/e-commerce.jpg")} />
                         <div className="overlay">
                             <div className="content">
-                                <h3>Web Analytics</h3>
+                                <h3>E-Commerce</h3>
                             </div>
                         </div>
                     </div>
@@ -235,7 +235,7 @@ const Home = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="home3-23">
-                                    <p>Have you project in mind?</p>
+                                    <p>Have a project in your mind?</p>
                                     <h1>Let’s make something great together!</h1>
                                     <Link to="/contact"><h4>CONTACT US <FaArrowRight color={"blue"} fontSize={"1.1rem"} /></h4></Link>
                                 </div>
@@ -279,7 +279,7 @@ const Home = () => {
                 </div>
                 <div className="home4-3">
                     <h3>... and many more</h3>
-                    <Link to="/portfolio"><h2>Checkout our Portfolio! <FaArrowRight color={"blue"} fontSize={"1.8rem"} /></h2></Link>
+                    <Link to="/portfolio"><h2 className="check-portfolio">Checkout our Portfolio! <FaArrowRight color={"blue"} fontSize={"1.8rem"} /></h2></Link>
                 </div>
             </section>
             <section className="home5">
@@ -296,21 +296,21 @@ const Home = () => {
                     className="mySwiper">
                     <SwiperSlide>
                         <div className="home5-1">
-                            <h4>With the help of SocioHeads, we are now able to send far more contextual communication to consumers essentially the right product to the right consumer at the time of the day and often using the right channel as well. Thank you.</h4>
+                            <h4>With the help of Socioheads, we are now able to send far more contextual communication to consumers essentially the right product to the right consumer at the time of the day and often using the right channel as well. Thank you.</h4>
                             <div className="home5-line"></div>
                             <h5>Arjun Reddy/ CEO, Devotional Shoppe</h5>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="home5-2">
-                            <h4>Choosing SocioHeads was our best decision. Their team identified and shortlisted keywords for my company and within 1-2 months most of them started ranking on the first page of Google. I thank Mr Vansh and his team for generating extra revenue through Google for me. Your SEO work is commendable.</h4>
+                            <h4>Choosing Socioheads was our best decision. Their team identified and shortlisted keywords for my company and within 1-2 months most of them started ranking on the first page of Google. I thank Mr Vansh and his team for generating extra revenue through Google for me. Your SEO work is commendable.</h4>
                             <div className="home5-line"></div>
                             <h5>Rajesh Kapoor</h5>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="home5-3">
-                            <h4>We took SEO and digital services from SocioHeads and that boosted our sales. I must say Vansh and his team are very efficient and professional.</h4>
+                            <h4>We took SEO and digital services from Socioheads and that boosted our sales. I must say Vansh and his team are very efficient and professional.</h4>
                             <div className="home5-line"></div>
                             <h5>Vikram Sharma</h5>
                         </div>
@@ -324,7 +324,7 @@ const Home = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="home5-5">
-                            <h4>I approached SocioHeads to improve the online presence of my event management company. After a couple of months, my website started giving good business. Thanks to the team  of SocioHeads for constant support and efficient service.</h4>
+                            <h4>I approached Socioheads to improve the online presence of my event management company. After a couple of months, my website started giving good business. Thanks to the team  of Socioheads for constant support and efficient service.</h4>
                             <div className="home5-line"></div>
                             <h5>Rahul Patel</h5>
                         </div>

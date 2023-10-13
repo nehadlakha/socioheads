@@ -91,13 +91,13 @@
 }
 
 .slide3 {
-    background: url("../images/home1-bg3.jpg");
+    background: url("../images/home1-bgg3.png");
     width: 100vw;
     height: 100vh;
     position: relative;
     z-index: 100;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     margin-top: -7%;
     display: flex;
     align-items: center;
@@ -604,9 +604,9 @@ button:hover {
 
 .model {
     width: 100%;
-    height: 88vh;
+    height: 100vh;
     position: fixed;
-    top: 12vh;
+    top: 0;
     left: 0;
     display: flex;
     justify-content: center;
@@ -879,24 +879,13 @@ button:hover {
 
 }
 
-@media screen and (max-width:1024) {
+@media screen and (max-width:1024px) {
 
-
-    .slide1 {
-        height: 70vh !important;
-    }
-
-    .slide1-1,
-    .slide2-1,
-    .slide3-1 {
-        width: 100vw;
-        /* height: 80vh !important; */
-    }
-
-    .choose-content1 h1 {
-        /* width: 30% !important; */
-        font-size: 2rem !important;
-        font-weight: 500 !important;
+    .start-project-btn,
+    .about-us-btn,
+    .contact-us {
+        height: 6vh !important;
+        width: 19vw;
     }
 
 }
@@ -906,8 +895,10 @@ button:hover {
     .slide1,
     .slide2,
     .slide3 {
-        background: none;
-        /* background-color: rgb(217, 247, 247); */
+        background: url("../images/home-img-phone.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
         justify-content: center;
     }
 
@@ -1103,9 +1094,110 @@ button:hover {
         margin-left: 0;
     }
 
+    .home3-23 {
+        padding: 10% 7%;
+    }
+
+    .home3-23 p {
+        font-size: 2.5rem;
+    }
+
+    .home3-23 h1 {
+        font-size: 3rem;
+        margin-bottom: 8%;
+    }
+
+    .home4-1 {
+        justify-content: unset;
+        padding-top: 7%;
+        height: 50vh;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 0;
+    }
+
+    .home4-2 {
+        margin-top: -10%;
+        display: flex;
+        align-items: center;
+    }
+
+    .home4-21 {
+        width: 90%;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 50%, 50%;
+        grid-template-rows: 60vh 60vh 60vh;
+        column-gap: 3%;
+    }
+
+    .vehicles {
+        position: absolute;
+        width: 45%;
+        overflow: hidden;
+        height: 60vh;
+    }
+
+    .valentine {
+        height: 60vh;
+        width: 45%;
+        margin-left: 45%;
+    }
+
+    .thug-life {
+        height: 60vh;
+        width: 45%;
+        margin-top: 60vh;
+    }
+
+    .party {
+        height: 60vh;
+        width: 45%;
+        margin-left: 45%;
+        margin-top: 60vh;
+    }
+
+    .fitness {
+        height: 60vh;
+        width: 45%;
+        margin-top: 120vh;
+    }
+
+    .chaiPoint1 {
+        height: 60vh;
+        width: 45%;
+        margin-left: 45%;
+        margin-top: 120vh;
+    }
+
+    .check-portfolio {
+        font-size: xx-large !important;
+        padding: 0 25%;
+    }
+
+    .home5-1 h4,
+    .home5-2 h4,
+    .home5-3 h4,
+    .home5-4 h4,
+    .home5-5 h4 {
+        font-size: 1.1rem;
+    }
+
+    .home5-1 h5,
+    .home5-2 h5,
+    .home5-3 h5,
+    .home5-4 h5,
+    .home5-5 h5 {
+        font-size: 1.2rem;
+    }
+
 }
 
-@media screen and (max-width:479px) {
+@media screen and (max-width:556px) {
+
+
 
     .slide1-1,
     .slide2-1,
@@ -1135,6 +1227,7 @@ button:hover {
         grid-row: 1/2;
         grid-column: 1/2;
         padding-bottom: unset !important;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.177);
     }
 
     .home2-12 {
@@ -1147,12 +1240,280 @@ button:hover {
 
     .home2-12 h3,
     .home2-13 h3 {
-        font-size: 5vw;
+        font-size: 6vw;
     }
 
     .home2-12 h5,
     .home2-13 h5 {
         margin-top: 4% !important;
+        font-size: x-large;
     }
 
+    .home2-12 p,
+    .home2-13 p {
+        font-size: large;
+    }
+
+    .home2-2 {
+        display: grid;
+        grid-template-columns: 100% !important;
+        grid-template-rows: 50vh 50vh 50vh 50vh 50vh 46vh !important;
+        /* justify-items: center; */
+    }
+
+    .social-media-mkt {
+        grid-row: 1/2;
+        grid-column: 1/2;
+        width: 100%;
+        height: 50vh;
+    }
+
+    .performance-mkt {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 50vh;
+        height: 50vh;
+    }
+
+    .web-analytics {
+        grid-row: 3/4;
+        grid-column: 1/2;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 100vh;
+        height: 50vh;
+    }
+
+    .content-writing {
+        grid-row: 4/5;
+        grid-column: 1/2;
+        width: 100%;
+        margin-top: 150vh;
+        margin-left: 0;
+        height: 50vh;
+    }
+
+    .seo {
+        grid-row: 5/6;
+        grid-column: 1/2;
+        width: 100%;
+        margin-top: 200vh;
+        margin-left: 0;
+        height: 50vh;
+    }
+
+    .web-design {
+        grid-row: 6/7;
+        grid-column: 1/2;
+        width: 100%;
+        margin-top: 250vh;
+        margin-left: 0;
+        height: 50vh;
+    }
+
+    .home3-1 {
+        margin: -10% 0;
+    }
+
+    .home3-1 h1 {
+        font-size: 7.5vw !important;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.418) !important;
+        padding-bottom: 3%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .home3-21 {
+        flex-direction: column;
+        padding: 3% 4% !important;
+        height: 100% !important;
+    }
+
+    .home3-2 {
+        background: url("../images/choose-bg.jpg");
+        background-size: cover;
+        position: relative;
+        z-index: 2;
+        background-repeat: no-repeat;
+        color: white;
+        height: 100%;
+        width: 100vw !important;
+    }
+
+    .black-bg {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .black-bg:before {
+        position: absolute;
+        content: '';
+        background-color: black !important;
+        width: 100vw;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.8;
+    }
+
+    .choose-content1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .choose-content1 h1 {
+        width: 90%;
+        font-size: 1.5rem !important;
+        font-weight: 700;
+    }
+
+    .strategy,
+    .audience,
+    .expertise {
+        display: flex;
+        margin-bottom: 4%;
+        justify-content: center;
+    }
+
+    .outer-circle {
+        width: 12vh;
+        height: 12vh;
+    }
+
+    .strategy h3,
+    .audience h3,
+    .expertise h3 {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .strategy p,
+    .audience p,
+    .expertise p {
+        font-size: medium;
+        font-weight: 400;
+    }
+
+    .audience {
+        margin-left: 10%;
+    }
+
+    .home3-22 {
+        padding: 5% 26%;
+        flex-direction: column;
+    }
+
+    .work-recieved,
+    .cup-of-coffee,
+    .project-complete,
+    .happy-clients {
+        padding: 0 5%;
+        margin: 8% 0;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.241);
+    }
+
+    .work-recieved,
+    .cup-of-coffee,
+    .project-complete {
+        border-right: none;
+    }
+
+    .home3-23 {
+        padding: 17% 10%;
+    }
+
+    .home3-23 p {
+        font-size: 2rem;
+    }
+
+    .home3-23 h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10%;
+    }
+
+    .home3-23 h4 {
+        font-size: 1.2rem;
+    }
+
+    .home4-1 {
+        text-align: center;
+    }
+
+    .home4-21 {
+        width: 75%;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 60vh 60vh 60vh 60vh;
+        column-gap: unset;
+    }
+
+    .vehicles {
+        position: absolute;
+        width: 75%;
+        height: 60vh;
+    }
+
+    .valentine {
+        grid-row: 2/3;
+        grid-column: 1/2;
+        height: 60vh;
+        width: 75%;
+        margin-left: 0;
+        margin-top: 60vh;
+    }
+
+    .thug-life {
+        grid-row: 3/4;
+        grid-column: 1/2;
+        height: 60vh;
+        width: 75%;
+        margin-left: 0;
+        margin-top: 120vh;
+    }
+
+    .party {
+        grid-row: 4/5;
+        grid-column: 1/2;
+        height: 60vh;
+        width: 75%;
+        margin-left: 0;
+        margin-top: 180vh;
+    }
+
+    .fitness {
+        visibility: hidden;
+        grid-row: 5/6;
+        grid-column: 1/2;
+        height: 60vh;
+        width: 75%;
+        margin-left: 0;
+        margin-top: 240vh;
+    }
+
+    .chaiPoint1 {
+        visibility: hidden;
+        grid-row: 6/7;
+        grid-column: 1/2;
+        height: 60vh;
+        width: 75%;
+        margin-left: 0;
+        margin-top: 300vh;
+    }
+}
+
+@media screen and (max-width:475px) {
+
+    .start-project-btn,
+    .about-us-btn,
+    .contact-us {
+        width: 40vw;
+    }
 }

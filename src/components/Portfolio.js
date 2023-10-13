@@ -35,31 +35,24 @@ const Portfolio = () => {
                 <div className="work2gallery">
                     {portfolioData.map((item, index) => {
                         return (
-                            // <div className="pics" key={index} onClick={() => getImg(item.imgSrc)}>
-                            //     <img src={item.imgSrc} style={{ width: '100%' }} />
-                            // </div>
                             <div className={item.class} key={index} onClick={() => getImg(item.imgSrc)}>
                                 <img src={item.imgSrc} style={{ width: '100%' }} />
-                                {/* <div className="portfolio-overlay">
-                                    <div className="portfolio-content">
-                                        <h3><AiOutlinePlus /></h3>
-
-                                        <h5>{item.imgName}</h5>
-                                        <h6>{item.purpose}</h6>
-                                    </div>
-                                </div> */}
                             </div>
                         )
                     })}
                 </div>
             </section>
+            <section className="work4">
+                <video className="vid1" src={require("../images/work/laptop animation.mp4")} autoplay="true" loop="true" />
+                <video className="vid2" src={require("../images/work/Comp 1_2.mp4")} autoplay="true" loop="true" />
+            </section>
             <section className="work3">
                 <h2>Socioheads has been honored to partner up with <span>...</span></h2>
-                <Swiper slidesPerView={3}
+                <Swiper slidesPerView={2}
                     grid={{
                         rows: 2,
                     }}
-                    spaceBetween={30}
+                    spaceBetween={20}
                     pagination={{
                         clickable: true,
                     }}
