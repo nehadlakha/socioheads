@@ -39,10 +39,10 @@ const Footer = () => {
                 <section className="footer3">
                     <h2>Get Notified</h2>
                     <h5>Get Latest NEWS & UPDATES by subscribing here. You will get all the updates on your registered email directly...</h5>
-                    <div className="mail">
-                        <input type="email" placeholder="email@gmail.com" />
+                    <form action="https://formspree.io/f/xqkvwjpa" method="POST" className="mail">
+                        <input type="email" placeholder="email@gmail.com" name="email" required />
                         <button type="submit">Subscribe</button>
-                    </div>
+                    </form>
                 </section>
             </section>
         </>

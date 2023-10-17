@@ -280,7 +280,8 @@ button:hover {
 .home2-2 {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
-    grid-template-rows: 46vh 46vh;
+    grid-template-rows: 46vh 46vh 46vh;
+    height: 100%;
     /* justify-items: center; */
 }
 
@@ -320,7 +321,10 @@ button:hover {
 .web-analytics:hover .overlay,
 .content-writing:hover .overlay,
 .seo:hover .overlay,
-.web-design:hover .overlay {
+.web-design:hover .overlay,
+.influencer:hover .overlay,
+.ads:hover .overlay,
+.youtube:hover .overlay {
     opacity: 0.7;
     visibility: visible;
     cursor: pointer;
@@ -372,7 +376,10 @@ button:hover {
 .performance-mkt img,
 .web-design img,
 .web-analytics img,
-.content-writing img {
+.content-writing img,
+.influencer img,
+.ads img,
+.youtube img {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -384,7 +391,10 @@ button:hover {
 .performance-mkt:hover img,
 .web-design:hover img,
 .web-analytics:hover img,
-.content-writing:hover img {
+.content-writing:hover img,
+.influencer:hover img,
+.ads:hover img,
+.youtube:hover img {
     /* width: 103%; */
     transform: scale(1.1);
 }
@@ -397,6 +407,39 @@ button:hover {
     width: 33.33%;
     margin-top: 46vh;
     margin-left: 66.66%;
+    overflow: hidden;
+}
+
+.influencer {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    position: absolute;
+    height: 46vh;
+    width: 33.33%;
+    margin-top: -46vh;
+    /* margin-left: 0; */
+    overflow: hidden;
+}
+
+.ads {
+    grid-row: 3/4;
+    grid-column: 3/4;
+    position: absolute;
+    height: 46vh;
+    width: 33.33%;
+    margin-top: -46vh;
+    margin-left: 66.66%;
+    overflow: hidden;
+}
+
+.youtube {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    position: absolute;
+    margin-top: -46vh;
+    height: 46vh;
+    width: 33.33%;
+    margin-left: 33.33%;
     overflow: hidden;
 }
 
@@ -873,6 +916,7 @@ button:hover {
         background-size: cover;
         background-position: left;
         justify-content: center;
+        height: 80vh;
     }
 
     .slide1-1,
@@ -972,7 +1016,7 @@ button:hover {
     .home2-2 {
         display: grid;
         grid-template-columns: 50% 50% !important;
-        grid-template-rows: 46vh 46vh 46vh !important;
+        grid-template-rows: 46vh 46vh 46vh 46vh !important;
         /* justify-items: center; */
     }
 
@@ -1018,6 +1062,26 @@ button:hover {
         grid-column: 2/3;
         width: 50%;
         margin-top: 92vh;
+        margin-left: 50%;
+    }
+
+    .influencer {
+        grid-row: 4/5;
+        grid-column: 1/2;
+        width: 50%;
+        /* margin-top: -46vh; */
+        margin-left: 0;
+    }
+
+    .ads {
+        visibility: hidden;
+    }
+
+    .youtube {
+        grid-row: 4/5;
+        grid-column: 2/3;
+        width: 50%;
+        /* margin-top: 138vh; */
         margin-left: 50%;
     }
 
@@ -1219,7 +1283,7 @@ button:hover {
     .home2-2 {
         display: grid;
         grid-template-columns: 100% !important;
-        grid-template-rows: 50vh 50vh 50vh 50vh 50vh 46vh !important;
+        grid-template-rows: 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh !important;
         /* justify-items: center; */
     }
 
@@ -1271,6 +1335,34 @@ button:hover {
         grid-column: 1/2;
         width: 100%;
         margin-top: 250vh;
+        margin-left: 0;
+        height: 50vh;
+    }
+
+    .influencer {
+        grid-row: 7/8;
+        grid-column: 1/2;
+        width: 100%;
+        margin-top: -150vh;
+        margin-left: 0;
+        height: 50vh;
+    }
+
+    .ads {
+        grid-row: 8/9;
+        grid-column: 1/2;
+        width: 100%;
+        margin-top: -50vh;
+        margin-left: 0;
+        height: 50vh;
+        visibility: visible;
+    }
+
+    .youtube {
+        grid-row: 9/10;
+        grid-column: 1/2;
+        width: 100%;
+        margin-top: -100vh;
         margin-left: 0;
         height: 50vh;
     }
@@ -1404,6 +1496,11 @@ button:hover {
 
     .home4-1 {
         text-align: center;
+        padding-top: 10%;
+        height: 45vh;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 0;
     }
 
     .home4-21 {

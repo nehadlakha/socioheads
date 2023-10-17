@@ -43,8 +43,9 @@ const Portfolio = () => {
                 </div>
             </section>
             <section className="work4">
-                <video className="vid1" src={require("../images/work/laptop animation.mp4")} autoPlay muted controls="true" />
-                <video className="vid2" src={require("../images/work/Comp 1_2.mp4")} autoPlay muted controls="true" />
+                <video className="vid1" src={require("../images/work/video.mp4")} autoplay muted controls="true" />
+                <video className="vid2" src={require("../images/work/laptop animation.mp4")} autoPlay muted controls="true" />
+                <video className="vid3" src={require("../images/work/Comp 1_2.mp4")} autoPlay muted controls="true" />
             </section>
             <section className="work3">
                 <h2>Socioheads has been honored to partner up with <span>...</span></h2>
@@ -52,7 +53,7 @@ const Portfolio = () => {
                     grid={{
                         rows: 2,
                     }}
-                    spaceBetween={20}
+                    spaceBetween={10}
                     pagination={{
                         clickable: true,
                     }}
@@ -87,6 +88,7 @@ const Portfolio = () => {
                     <SwiperSlide><img src={require("../images/c16.png")} /></SwiperSlide>
                     <SwiperSlide><img src={require("../images/c17.png")} /></SwiperSlide>
                     <SwiperSlide><img src={require("../images/c18.jpg")} /></SwiperSlide>
+                    <SwiperSlide><img src={require("../images/c19.png")} /></SwiperSlide>
                 </Swiper>
             </section>
             <Footer />

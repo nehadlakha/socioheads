@@ -186,3 +186,15 @@
         width: 70%;
     }
 }
+
+@media screen and (max-width:450px) {
+    .about3 {
+        height: 120vh;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .about3 {
+        height: 100vh;
+    }
+}

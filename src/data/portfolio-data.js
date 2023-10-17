@@ -17,7 +17,7 @@ import Img16 from "../images/work/Snapinsta.app_366176234_1484733609026813_69682
 import Img17 from "../images/work/Snapinsta.app_376620481_257465767190200_3768288761520346905_n_1080.jpg";
 import Img18 from "../images/work/Grid Photo Collage Instagram Post (7).png";
 import Img19 from "../images/work/your only (1).png";
-import Img20 from "../images/work/wedding.png";
+import Img20 from "../images/work/wedding.jpg";
 
 
 const portfolioData = [

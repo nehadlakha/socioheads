@@ -162,6 +162,30 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                <div className="influencer">
+                    <img src={require("../images/influencer.jpg")} />
+                    <div className="overlay">
+                        <div className="content">
+                            <h3>Influencer Marketing</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className="ads">
+                    <img src={require("../images/ads.jpg")} />
+                    <div className="overlay">
+                        <div className="content">
+                            <h3>Ads</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className="youtube">
+                    <img src={require("../images/youtube.jpg")} />
+                    <div className="overlay">
+                        <div className="content">
+                            <h3>Youtube</h3>
+                        </div>
+                    </div>
+                </div>
             </section >
             <section className="home3">
                 <div className="home3-1">
@@ -315,26 +339,36 @@ const Home = () => {
                     <SwiperSlide>
                         <div className="home5-1">
                             <h4>I  learned about SocioHeads through a friend who recommended them to me because I wanted to start my ecommerce website. They not only built the website but also generated numerous leads for me, increasing my website traffic from zero to millions. Later on, I engaged them for social media services, and they created exceptional and professional graphics and edited reels. I am very satisfied with their service and highly recommend you to contact them.</h4>
+                            <div className="home5-line"></div>
+                            <h5>Mayank Singh</h5>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="home5-2">
                             <h4>I recently engaged Socioheads for their social media marketing services, and I couldn't be happier with the results. Their team demonstrated a deep understanding of social media platforms and crafted a tailored strategy that perfectly suited my business needs.</h4>
+                            <div className="home5-line"></div>
+                            <h5>Vaibhav Gautam</h5>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="home5-3">
                             <h4>I had a fantastic experience with Socioheads! Their social media expertise truly delivered outstanding results for my business. From creative content to targeted campaigns, they exceeded my expectations. Highly recommend! #TopNotchMarketing</h4>
+                            <div className="home5-line"></div>
+                            <h5>Nazar Sachdeva</h5>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="home5-4">
                             <h4>Six months ago, I enlisted the services of Socioheads, and they exceeded my expectations. They delivered an outstanding performance, generating over 200 high-quality leads, a majority of which I successfully converted. Their proficiency in both social media marketing and web design is truly commendable.</h4>
+                            <div className="home5-line"></div>
+                            <h5>Jashan Khanna</h5>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="home5-5">
                             <h4>Perfect team with great service. They are passionate and dedicated towards their work, had a wonderful experience.</h4>
+                            <div className="home5-line"></div>
+                            <h5>Karsimran Kaur</h5>
                         </div>
                     </SwiperSlide>
                 </Swiper>
