@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.103230f8.css",
-    "main.js": "/static/js/main.8cdef5e2.js",
+    "main.css": "/static/css/main.32b781a2.css",
+    "main.js": "/static/js/main.a51cd6e1.js",
     "static/js/787.06301cc0.chunk.js": "/static/js/787.06301cc0.chunk.js",
     "static/media/Comp 1_2.mp4": "/static/media/Comp 1_2.3a165c7b3d8dae4f0abd.mp4",
     "static/media/social-media-mkt.jpg": "/static/media/social-media-mkt.e64600103ee9970cdb4f.jpg",
@@ -38,6 +38,7 @@
     "static/media/seo.jpg": "/static/media/seo.0f1b51d3cee6be784a19.jpg",
     "static/media/c4.png": "/static/media/c4.45c1a52724327d6d0f5b.png",
     "static/media/Snapinsta.app_385225510_677280500786187__n_1080.jpg": "/static/media/Snapinsta.app_385225510_677280500786187_3034810898930875352_n_1080.32ad654179b63838943f.jpg",
+    "static/media/home3-phone.png": "/static/media/home3-phone.add61065b2f697d0467b.png",
     "static/media/Snapinsta.app_366176234___n_1080.jpg": "/static/media/Snapinsta.app_366176234_1484733609026813_6968244260368002661_n_1080.e4d929374d40519495d0.jpg",
     "static/media/web-design.jpg": "/static/media/web-design.cf79abce811769a3be72.jpg",
     "static/media/c13.png": "/static/media/c13.0be6ad80f6222db71e16.png",
@@ -53,12 +54,12 @@
     "static/media/c2.jpg": "/static/media/c2.c4abdb6786521d5a272f.jpg",
     "static/media/c17.png": "/static/media/c17.0252f98e60fd17e2521b.png",
     "index.html": "/index.html",
-    "main.103230f8.css.map": "/static/css/main.103230f8.css.map",
-    "main.8cdef5e2.js.map": "/static/js/main.8cdef5e2.js.map",
+    "main.32b781a2.css.map": "/static/css/main.32b781a2.css.map",
+    "main.a51cd6e1.js.map": "/static/js/main.a51cd6e1.js.map",
     "787.06301cc0.chunk.js.map": "/static/js/787.06301cc0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.103230f8.css",
-    "static/js/main.8cdef5e2.js"
+    "static/css/main.32b781a2.css",
+    "static/js/main.a51cd6e1.js"
   ]
 }
