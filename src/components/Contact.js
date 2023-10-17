@@ -68,7 +68,7 @@ const Contact = () => {
                     <div className="line"></div>
                     <div>
                         <div className="visit-us">
-                            <div className="icon-bg"><FaLocationArrow size={"3vw"} /></div>
+                            <div className="icon-bg"><FaLocationArrow /></div>
                             <h3>Visit Us:</h3>
                             <p>Ingenious - The Co-Study Space,<br />
                                 RZ-19A Suraj Vihar,<br />
@@ -76,12 +76,12 @@ const Contact = () => {
                                 Dwarka Sec-3, New Delhi-110078</p>
                         </div>
                         <div className="mail-us">
-                            <div className="icon-bg"><FaMailBulk size={"3vw"} /></div>
+                            <div className="icon-bg"><FaMailBulk /></div>
                             <h3>Mail Us:</h3>
                             <p>info@socioheads.com</p>
                         </div>
                         <div className="phone-us">
-                            <div className="icon-bg"><FaPhone size={"3vw"} /></div>
+                            <div className="icon-bg"><FaPhone /></div>
                             <h3>Call Us:</h3>
                             <p>Mobile: (+91) 95552 07707</p>
                         </div>

@@ -5,8 +5,8 @@ import Footer from "./Footer"
 import { RiBrush4Fill } from 'react-icons/ri'
 import { FaCameraRetro, FaBullhorn, FaGlobeAmericas, FaPencilAlt } from 'react-icons/fa'
 import { IoMdApps } from 'react-icons/io'
-import { MdOutlineWebAsset } from 'react-icons/md'
 import { HiOutlinePhotograph } from 'react-icons/hi'
+import { CgWebsite } from 'react-icons/cg'
 // import { LiaGlobeAmericasSolid } from 'react-icons/lib'
 
 const Services = () => {
@@ -38,11 +38,11 @@ const Services = () => {
                         <p>Socioheads offers SEO services that help businesses increase their visibility and rankings on search engines. Our team of SEO experts conducts thorough keyword research, creates high-quality content, and optimizes websites for search engines, ensuring that businesses appear at the top of search engine results pages (SERPs) for relevant keywords. With our SEO service, businesses can attract more organic traffic, generate leads, and increase conversions, ultimately helping them achieve their business objectives and stay ahead of the competition.</p>
                     </div>
                     <div className="service5">
-                        <h3><IoMdApps /> App Development</h3>
-                        <p>Socioheads offers app development services for iOS and Android platforms that are customized to meet our clients' unique needs. Our team of experienced app developers uses cutting-edge technology and innovative design to create apps that are visually appealing, user-friendly, and enhance the user experience. With our app development service, businesses can leverage the power of mobile technology to enhance their brand image, increase customer engagement, and generate revenue through in-app purchases and advertising, staying ahead of the competition in the mobile space.</p>
+                        <h3><CgWebsite /> E-Commerce</h3>
+                        <p>We provide innovative e-commerce services dedicated to redefine the online shopping experience.  Our mission is to connect consumers with a diverse range of high-quality products while delivering exceptional value and convenience. With a customer-centric approach, we prioritize user satisfaction through user-friendly interfaces, efficient logistics, and personalized recommendations. Our commitment to sustainability drives our efforts to reduce our environmental footprint, and we constantly strive to improve and adapt to meet the evolving needs and expectations of our customers.</p>
                     </div>
                     <div className="service6">
-                        <h3><MdOutlineWebAsset /> Development</h3>
+                        <h3><IoMdApps /> Web Development</h3>
                         <p>Socioheads offers web development services that help businesses create professional and functional websites that effectively represent their brand and engage their target audience. Our team of experienced web developers creates custom websites that are optimized for search engines, mobile-friendly, and easy to navigate, ensuring a seamless user experience. With our web development service, businesses can establish a strong online presence, drive traffic to their website, and generate leads, ultimately helping them achieve their business goals and stand out in their industry.</p>
                     </div>
                     <div className="service7">

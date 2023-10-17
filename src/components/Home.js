@@ -12,6 +12,8 @@ import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation, Mousewheel, Keyboard } from 'swiper/modules';
 import data from "../data/work-data";
 import Footer from "./Footer";
+import CountUp from "react-countup";
+import ScrollTrigger from "react-scroll-trigger";
 
 const Home = () => {
 
@@ -22,6 +24,8 @@ const Home = () => {
         setTempImgSrc(imgSrc);
         setModel(true);
     }
+
+    const [counterOn, setCounterOn] = useState(false);
     return (
         <>
             <Navbar />
@@ -79,16 +83,16 @@ const Home = () => {
                                 <h1>"Empowering Brands, Amplifying Reach - Your Digital Marketing Solution"</h1>
                                 <Link to="/contact"><button className="contact-us button-30">CONTACT US</button></Link>
                                 <div className="social-media">
-                                    <div className="insta"><FaInstagram /></div>
-                                    <div className="facebook"><FaFacebook /></div>
-                                    <div className="linkedin"><FaLinkedin /></div>
-                                    <div className="twitter"><FaTwitter /></div>
+                                    <a href="https://www.instagram.com/socioheads/?igshid=YmMyMTA2M2Y%3D" className="insta"><FaInstagram /></a>
+                                    <a href="https://www.facebook.com/people/Socioheads/100090495594400/?mibextid=ZbWKwL" className="facebook"><FaFacebook /></a>
+                                    <a href="https://www.linkedin.com/company/socioheads/" className="linkedin"><FaLinkedin /></a>
+                                    <a href="https://twitter.com/socioheads" className="twitter"><FaTwitter /></a>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                 </Swiper>
-            </section>
+            </section >
             <section className="home2">
                 <div className="home2-1">
                     <div className="home2-11"><h1>What we do<span className="qmark">?</span></h1></div>
@@ -171,7 +175,7 @@ const Home = () => {
                                 enabled: true,
                             }}
                             autoplay={{
-                                delay: 3000,
+                                delay: 4000,
                                 disableOnInteraction: false,
                             }}
                             // pagination={{
@@ -216,19 +220,39 @@ const Home = () => {
                             <SwiperSlide>
                                 <div className="home3-22">
                                     <div className="work-recieved">
-                                        <h1>36</h1>
+                                        <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
+                                            <h1>
+                                                {counterOn && <CountUp start={0} end={36} duration={2} delay={0} />}
+                                                +
+                                            </h1>
+                                        </ScrollTrigger>
                                         <h4>Work Recieved</h4>
                                     </div>
                                     <div className="cup-of-coffee">
-                                        <h1>52</h1>
+                                        <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
+                                            <h1>
+                                                {counterOn && <CountUp start={0} end={52} duration={2} delay={0} />}
+                                                +
+                                            </h1>
+                                        </ScrollTrigger>
                                         <h4>Cup of Coffee</h4>
                                     </div>
                                     <div className="project-complete">
-                                        <h1>24</h1>
+                                        <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
+                                            <h1>
+                                                {counterOn && <CountUp start={0} end={24} duration={2} delay={0} />}
+                                                +
+                                            </h1>
+                                        </ScrollTrigger>
                                         <h4>Projects Completed</h4>
                                     </div>
                                     <div className="happy-clients">
-                                        <h1>33</h1>
+                                        <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
+                                            <h1>
+                                                {counterOn && <CountUp start={0} end={33} duration={2} delay={0} />}
+                                                +
+                                            </h1>
+                                        </ScrollTrigger>
                                         <h4>Happy Clients</h4>
                                     </div>
                                 </div>
@@ -264,12 +288,6 @@ const Home = () => {
                                     <div className={item.class} key={index} onClick={() => getImg(item.imgSrc)}>
                                         <img src={item.imgSrc} style={{ width: '100%' }} />
                                         <div className="work-overlay">
-                                            <div className="work-content">
-                                                <h3><AiOutlinePlus /></h3>
-
-                                                <h5>{item.imgName}</h5>
-                                                <h6>{item.purpose}</h6>
-                                            </div>
                                         </div>
                                     </div>
                                 )
@@ -296,37 +314,27 @@ const Home = () => {
                     className="mySwiper">
                     <SwiperSlide>
                         <div className="home5-1">
-                            <h4>With the help of Socioheads, we are now able to send far more contextual communication to consumers essentially the right product to the right consumer at the time of the day and often using the right channel as well. Thank you.</h4>
-                            <div className="home5-line"></div>
-                            <h5>Arjun Reddy/ CEO, Devotional Shoppe</h5>
+                            <h4>I  learned about SocioHeads through a friend who recommended them to me because I wanted to start my ecommerce website. They not only built the website but also generated numerous leads for me, increasing my website traffic from zero to millions. Later on, I engaged them for social media services, and they created exceptional and professional graphics and edited reels. I am very satisfied with their service and highly recommend you to contact them.</h4>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="home5-2">
-                            <h4>Choosing Socioheads was our best decision. Their team identified and shortlisted keywords for my company and within 1-2 months most of them started ranking on the first page of Google. I thank Mr Vansh and his team for generating extra revenue through Google for me. Your SEO work is commendable.</h4>
-                            <div className="home5-line"></div>
-                            <h5>Rajesh Kapoor</h5>
+                            <h4>I recently engaged Socioheads for their social media marketing services, and I couldn't be happier with the results. Their team demonstrated a deep understanding of social media platforms and crafted a tailored strategy that perfectly suited my business needs.</h4>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="home5-3">
-                            <h4>We took SEO and digital services from Socioheads and that boosted our sales. I must say Vansh and his team are very efficient and professional.</h4>
-                            <div className="home5-line"></div>
-                            <h5>Vikram Sharma</h5>
+                            <h4>I had a fantastic experience with Socioheads! Their social media expertise truly delivered outstanding results for my business. From creative content to targeted campaigns, they exceeded my expectations. Highly recommend! #TopNotchMarketing</h4>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="home5-4">
-                            <h4>Socioheads as the implementation partner helped us bring together the various channels of marketing into one unified journey for our prospects as well as members. So what we've achieved in the last few months has been quite amazing.</h4>
-                            <div className="home5-line"></div>
-                            <h5>Priya Gupta</h5>
+                            <h4>Six months ago, I enlisted the services of Socioheads, and they exceeded my expectations. They delivered an outstanding performance, generating over 200 high-quality leads, a majority of which I successfully converted. Their proficiency in both social media marketing and web design is truly commendable.</h4>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="home5-5">
-                            <h4>I approached Socioheads to improve the online presence of my event management company. After a couple of months, my website started giving good business. Thanks to the team  of Socioheads for constant support and efficient service.</h4>
-                            <div className="home5-line"></div>
-                            <h5>Rahul Patel</h5>
+                            <h4>Perfect team with great service. They are passionate and dedicated towards their work, had a wonderful experience.</h4>
                         </div>
                     </SwiperSlide>
                 </Swiper>

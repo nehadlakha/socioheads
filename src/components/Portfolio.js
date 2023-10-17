@@ -43,8 +43,8 @@ const Portfolio = () => {
                 </div>
             </section>
             <section className="work4">
-                <video className="vid1" src={require("../images/work/laptop animation.mp4")} autoplay="true" loop="true" />
-                <video className="vid2" src={require("../images/work/Comp 1_2.mp4")} autoplay="true" loop="true" />
+                <video className="vid1" src={require("../images/work/laptop animation.mp4")} autoPlay muted controls="true" />
+                <video className="vid2" src={require("../images/work/Comp 1_2.mp4")} autoPlay muted controls="true" />
             </section>
             <section className="work3">
                 <h2>Socioheads has been honored to partner up with <span>...</span></h2>

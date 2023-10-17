@@ -123,20 +123,20 @@
     .about1-1 h1,
     .about2-2 h1,
     .about3 h1 {
-        font-size: 6vw;
+        font-size: 7vw;
     }
 
     .about1-1 h5 {
-        font-size: 1.5rem;
+        font-size: x-large;
     }
 
     .about1-1 p,
     .about2-2 p {
-        font-size: 1.2rem;
+        font-size: medium;
     }
 
     .about1-2 {
-        width: 70vw;
+        width: 80vw;
     }
 
     .about2-1 {

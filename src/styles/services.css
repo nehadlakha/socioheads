@@ -90,9 +90,19 @@
     border-bottom: 2px solid black;
 }
 
+@media screen and (max-width:1159px) {
+    .ser2 {
+        height: 100% !important;
+        padding-bottom: 17%;
+
+    }
+}
+
 @media screen and (max-width:730px) {
     .ser2 {
         height: 100% !important;
+        padding-bottom: 17%;
+
     }
 
     .ser2-2 {
@@ -122,6 +132,19 @@
         font-size: 0.8rem !important;
     }
 
+    .service1 h3>svg,
+    .service2 h3>svg,
+    .service3 h3>svg,
+    .service4 h3>svg,
+    .service5 h3>svg,
+    .service6 h3>svg,
+    .service7 h3>svg,
+    .service8 h3>svg {
+        font-size: 4.5vw;
+        margin-bottom: -2%;
+        /* color: blue; */
+    }
+
 }
 
 @media screen and (max-width:556px) {
@@ -140,7 +163,7 @@
 
     .ser2 {
         grid-template-columns: 40vw 60vw;
-        margin-bottom: 15%;
+        margin-bottom: 30%;
     }
 
     .ser2-2 {
@@ -171,5 +194,18 @@
     .service6,
     .service7 {
         border-bottom: 2px solid black;
+    }
+
+    .service1 h3>svg,
+    .service2 h3>svg,
+    .service3 h3>svg,
+    .service4 h3>svg,
+    .service5 h3>svg,
+    .service6 h3>svg,
+    .service7 h3>svg,
+    .service8 h3>svg {
+        font-size: 6vw;
+        margin-bottom: -2%;
+        /* color: blue; */
     }
 }
