@@ -18,9 +18,9 @@ const Footer = () => {
                         <h2>Connect with us</h2>
                         <div className="sm-footer">
                             <a href="https://www.facebook.com/people/Socioheads/100090495594400/?mibextid=ZbWKwL"><FaFacebook /></a>
-                            <a href="https://twitter.com/socioheads"><FaInstagram /></a>
-                            <a href="https://www.instagram.com/socioheads/?igshid=YmMyMTA2M2Y%3D"><FaLinkedin /></a>
-                            <a href="https://www.linkedin.com/company/socioheads/"><FaTwitter /></a>
+                            <a href="https://www.instagram.com/socioheads/?igshid=YmMyMTA2M2Y%3D"><FaInstagram /></a>
+                            <a href="https://www.linkedin.com/company/socioheads/"><FaLinkedin /></a>
+                            <a href="https://twitter.com/socioheads"><FaTwitter /></a>
                         </div>
                     </div>
                     <div className="touch">

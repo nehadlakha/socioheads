@@ -1,5 +1,5 @@
 import "../styles/navbar.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -14,7 +14,7 @@ function Navbar() {
 
     return (
         <header>
-            <img className="logo" src={require('../images/logo-removebg-preview.png')} />
+            <Link to="/"><img className="logo" src={require('../images/logo-removebg-preview.png')} /></Link>
             <nav ref={navRef}>
 
                 <NavLink to="/">Home</NavLink>
