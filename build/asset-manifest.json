@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6271cc58.css",
-    "main.js": "/static/js/main.700d0758.js",
+    "main.js": "/static/js/main.f3321631.js",
     "static/js/787.06301cc0.chunk.js": "/static/js/787.06301cc0.chunk.js",
     "static/media/video.mp4": "/static/media/video.09635a67d6b9d6ebfe6f.mp4",
     "static/media/Comp 1_2.mp4": "/static/media/Comp 1_2.3a165c7b3d8dae4f0abd.mp4",
@@ -15,11 +15,11 @@
     "static/media/Grid Photo Collage Instagram Post (23).png": "/static/media/Grid Photo Collage Instagram Post (23).4709bcd2de7a7df3e058.png",
     "static/media/about2.jpg": "/static/media/about2.f516bde7efab3ea55042.jpg",
     "static/media/PIZZA.png": "/static/media/PIZZA.64684319e4e1d0604559.png",
+    "static/media/saturday (2).png": "/static/media/saturday (2).e9b51c5205260d4efda6.png",
     "static/media/choose-bg.jpg": "/static/media/choose-bg.e7b626d3e4fb57f58d25.jpg",
     "static/media/Untitled design (3).png": "/static/media/Untitled design (3).9aac4132a3f3815cee24.png",
     "static/media/Tum Chai aur Sukoon ❤️ (1).png": "/static/media/Tum Chai aur Sukoon ❤️ (1).3aa249adb47b304d4565.png",
     "static/media/home1-bg2.jpg": "/static/media/home1-bg2.31d224395c149c4ad8fa.jpg",
-    "static/media/saturday (2).png": "/static/media/saturday (2).c1d43189bfc905853ee4.png",
     "static/media/your only (1).png": "/static/media/your only (1).418808a664de48b58e59.png",
     "static/media/Grid Photo Collage Instagram Post (7).png": "/static/media/Grid Photo Collage Instagram Post (7).dd4f4595e283b6992af8.png",
     "static/media/Grid Photo Collage Instagram Post (6).png": "/static/media/Grid Photo Collage Instagram Post (6).e11daaae555395c33af2.png",
@@ -60,11 +60,11 @@
     "static/media/c17.png": "/static/media/c17.0252f98e60fd17e2521b.png",
     "index.html": "/index.html",
     "main.6271cc58.css.map": "/static/css/main.6271cc58.css.map",
-    "main.700d0758.js.map": "/static/js/main.700d0758.js.map",
+    "main.f3321631.js.map": "/static/js/main.f3321631.js.map",
     "787.06301cc0.chunk.js.map": "/static/js/787.06301cc0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6271cc58.css",
-    "static/js/main.700d0758.js"
+    "static/js/main.f3321631.js"
   ]
 }
